@@ -16,12 +16,12 @@ setup(
   author = 'ABHILASH MAJUMDER',
   author_email = 'abhilash.majumder@hsbc.co.in',
   url = 'https://github.com/abhilash1910/Abhilash_optimizers_package',   
-  download_url = 'https://github.com/abhilash1910/Abhilash_optimizers_package/archive/v_01.tar.gz',    
+  download_url = 'https://github.com/abhilash1910/Abhilash_optimizers_package/archive/v_02.tar.gz',    
   keywords = ['adam', 'adagrad', 'adamax','optimizers','stochastic','sgd','rmsprop','momentum','nesterov adam'],   
   install_requires=[           
-          'numpy',
-          'math',
+          'numpy',         
           'pandas'
+          
           
       ],
   classifiers=[
