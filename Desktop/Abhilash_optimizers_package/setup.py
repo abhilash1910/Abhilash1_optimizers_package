@@ -20,7 +20,6 @@ setup(
   keywords = ['adam', 'adagrad', 'adamax','optimizers','stochastic','sgd','rmsprop','momentum','nesterov adam'],   
   install_requires=[           
           'numpy',
-          'math',
           'pandas'
           
       ],
