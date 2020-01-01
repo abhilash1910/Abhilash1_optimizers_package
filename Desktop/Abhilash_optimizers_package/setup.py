@@ -19,10 +19,9 @@ setup(
   download_url = 'https://github.com/abhilash1910/Abhilash_optimizers_package/archive/v_02.tar.gz',    
   keywords = ['adam', 'adagrad', 'adamax','optimizers','stochastic','sgd','rmsprop','momentum','nesterov adam'],   
   install_requires=[           
+
           'numpy',         
           'pandas'
-          
-          
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      
