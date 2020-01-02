@@ -63,13 +63,45 @@ momentum_1,momentum_2,turns,theta=moment.hyp.hyperparameter.initialise(momentum_
 ## Algorithms
 ## 1.SGD
 Stochastic Gradient Descent -Modification of Robins Monro Algorithm(https://projecteuclid.org/euclid.aoms/1177729586)
-While accessing SGD in scripts,it is required to - import Abhilash1_optimizers.SGD library.Tensorflow SGD -https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/SGD?version=stable
+While accessing SGD in scripts,it is required to - import Abhilash1_optimizers.SGD library.
 ## 2.Classical Momentum-
 https://arxiv.org/abs/1910.03197  Adding momentum operator with the SGD to have a better optimization function
-While accessing SGD in scripts,it is required to - import Abhilash1_optimizers.ClassicMomentum library
+While accessing ClassicMomentum in scripts,it is required to - import Abhilash1_optimizers.ClassicMomentum library
 Polyak 1964-https://www.researchgate.net/publication/243648538_Some_methods_of_speeding_up_the_convergence_of_iteration_methods
-## 3.ADAgrad-
+## 3.Adagrad-
 Duchi etal(2011)http://jmlr.org/papers/v12/duchi11a.html 
-While accessing SGD in scripts,it is required to - import Abhilash1_optimizers.Adagrad library
+While accessing Adagrad in scripts,it is required to - import Abhilash1_optimizers.Adagrad library
 ## 4.ADAM-
+Kingma, Ba(2014)-https://arxiv.org/abs/1412.6980
+While accessing ADAM in scripts,it is required to - import Abhilash1_optimizers.ADAM_optimizer library
+A Variation of ADAM using approximation of moments - import Abhilas1_optimizers.ADAM_modified_update library
+### 5.Adamax-
+Kingma,Ba(2014)-https://arxiv.org/abs/1412.6980
+While accessing Adamax in scripts,it is required to - import Abhilash1_optimizers.Adamax library
+### 6.RMSProp-
+Hinton et al (2012)-http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf
+While accessing RMSprop in scripts,it is required to - import Abhilash1_optimizers.RMSprop library
+### 7.NADAM-
+Dozat(2015)-http://cs229.stanford.edu/proj2015/054_report.pdf
+While accessing NADAM in scripts,it is required to - import Abhilash1_optimizers.Nadam library
 
+## Activation Functions
+For any activation function- 
+import Abhilash1_optimizers.Activation as activation
+float output result= activation.Activation.*activation-name*(float input) where *activation-name*= relu,selu,elu ..etc
+### 1.Relu-https://www.tensorflow.org/api_docs/python/tf/keras/activations/relu?version=stable
+### 2.Elu-https://www.tensorflow.org/api_docs/python/tf/keras/activations/elu?version=stable
+### 3.Selu-https://www.tensorflow.org/api_docs/python/tf/keras/activations/selu?version=stable 
+### 4.SoftPlus-https://www.tensorflow.org/api_docs/python/tf/keras/activations/softplus?version=stable
+### 5.SoftSign-https://www.tensorflow.org/api_docs/python/tf/keras/activations/softsign?version=stable
+### 6.Linear-https://www.tensorflow.org/api_docs/python/tf/keras/activations/linear?version=stable
+### 7.Exponential-https://www.tensorflow.org/api_docs/python/tf/keras/activations/exponential?version=stable
+### 8.Hard_sigmoid-https://www.tensorflow.org/api_docs/python/tf/keras/activations/hard_sigmoid?version=stable
+### 9.Sigmoid-https://www.tensorflow.org/api_docs/python/tf/keras/activations/sigmoid?version=stable
+
+## Sample Test Template
+The Test.py script contains the necessary sample test template code.It contains the description of usage of the library functions and general callback mechanisms.The project is hosted in PyPi and can be installed by 
+### pip install Abhilash1_optimizers
+It requires numpy and pandas libraries.The project is under MIT license and is made opensource to add more activation fucntions and optimizations.
+### 5.SoftSign-https://www.tensorflow.org/api_docs/python/tf/keras/activations/softsign?version=stable
+### 6.Sigmoid-https://www.tensorflow.org/api_docs/python/tf/keras/activations/sigmoid?version=stable
