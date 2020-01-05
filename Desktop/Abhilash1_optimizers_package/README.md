@@ -102,4 +102,4 @@ float output result= activation.Activation.*activation-name*(float input) where 
 ## Sample Test Template
 The Test.py script contains the necessary sample test template code.It contains the description of usage of the library functions and general callback mechanisms.The project is hosted in PyPi and can be installed by 
 ### pip install Abhilash1_optimizers
-It requires numpy and pandas libraries.The project is under MIT license and is made opensource to add more activation fucntions and optimizations.
+It requires numpy and pandas libraries.The project is under MIT license and is made opensource to add more activation functions and optimizer algorithms.
